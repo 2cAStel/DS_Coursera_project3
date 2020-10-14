@@ -5,7 +5,7 @@ library(dplyr)
 filename <- "Coursera_project_S3.zip"
 foldername <- './projectsequence3'
 
-##setwd(foldername)
+setwd(foldername)
 
 if (!file.exists(filename)){
 	fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
